@@ -1,0 +1,21 @@
+{
+  "name": "maalfrid-initdb",
+  "version": "0.1.0-alpha1",
+  "license": "Apache-2.0",
+  "description": "Målfrid database initializer",
+  "main": "index.js",
+  "repository": "https://github.com/nlnwa/maalfrid-initdb",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "rethinkdbdash": "^2.3.31"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-es2015": "^1.1.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
