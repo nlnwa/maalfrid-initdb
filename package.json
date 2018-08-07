@@ -1,6 +1,6 @@
 {
   "name": "maalfrid-initdb",
-  "version": "0.1.0-alpha1",
+  "version": "0.1.0-alpha2",
   "license": "Apache-2.0",
   "description": "Målfrid database initializer",
   "main": "index.js",
@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "start": "node .",
-    "lint": "eslint ."
+    "lint": "standard",
+    "build:docker": "docker build -t norsknettarkiv/maalfrid-initdb:latest ."
   },
   "dependencies": {
     "rethinkdbdash": "rebirthdb/rebirthdb-js"
