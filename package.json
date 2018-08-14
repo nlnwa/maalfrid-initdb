@@ -1,6 +1,6 @@
 {
   "name": "maalfrid-initdb",
-  "version": "0.1.0-alpha3",
+  "version": "0.1.0-beta1",
   "license": "Apache-2.0",
   "description": "Målfrid database initializer",
   "main": "index.js",
