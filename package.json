@@ -9,12 +9,12 @@
   "scripts": {
     "start": "node .",
     "lint": "standard",
-    "build:docker": "docker build -t norsknettarkiv/maalfrid-initdb:latest ."
+    "build:docker": "docker build -t norsknettarkiv/maalfrid-initdb:$(git describe) ."
   },
   "dependencies": {
     "rethinkdbdash": "rebirthdb/rebirthdb-js"
   },
   "devDependencies": {
-    "standard": "^11.0.1"
+    "standard": "^12.0.1"
   }
 }
