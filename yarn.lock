@@ -1041,7 +1041,7 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
-rethinkdb-js@rethinkdb/rethinkdb-js:
+rethinkdb-js@rethinkdb/rethinkdb-js#master:
   version "2.3.31"
   resolved "https://codeload.github.com/rethinkdb/rethinkdb-js/tar.gz/fa66a4b6c7ce6a773bc71d7a61d707cca15a788a"
   dependencies:
