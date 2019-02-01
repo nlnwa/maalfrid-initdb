@@ -22,4 +22,6 @@ ENV DB_PORT=28015 \
 
 EXPOSE 3010
 
+USER node
+
 ENTRYPOINT ["/usr/local/bin/node", "index.js"]
