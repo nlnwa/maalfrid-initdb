@@ -89,11 +89,6 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-bluebird@^3.5.1:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
-  integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -694,11 +689,6 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
-iterall@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
-  integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
-
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -780,11 +770,6 @@ loose-envify@^1.3.1:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
-
-luxon@^1.2.1:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.8.2.tgz#32ca2be3b3f0fcddd607dc5584ff106107fecade"
-  integrity sha512-TPShotrkafGXEksxvEagZ1peYb9gE3ADppq8IPWG6wqYS/4k9ucRUXipBHy/PrMIfUPxy/llfsQXRvQmOXmVcA==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -1041,13 +1026,10 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
-rethinkdb-js@rethinkdb/rethinkdb-js#master:
-  version "2.3.31"
-  resolved "https://codeload.github.com/rethinkdb/rethinkdb-js/tar.gz/fa66a4b6c7ce6a773bc71d7a61d707cca15a788a"
-  dependencies:
-    bluebird "^3.5.1"
-    iterall "^1.2.2"
-    luxon "^1.2.1"
+rethinkdb-ts@^2.4.0-rc.13:
+  version "2.4.0-rc.13"
+  resolved "https://registry.yarnpkg.com/rethinkdb-ts/-/rethinkdb-ts-2.4.0-rc.13.tgz#61bbc9e53989f2f5e29323117e19d2b67154b975"
+  integrity sha512-8Jp9mR/Zmszt86D/lN3KIx1TlaqRZ9Pi/tY3RbAKtJsJ/1SlQA/nAVUZJvCAMxMzRWGNNVsPhxooMNiMp8J/3Q==
 
 rimraf@^2.2.8:
   version "2.6.2"
