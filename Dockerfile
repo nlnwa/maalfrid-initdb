@@ -1,12 +1,11 @@
-FROM node:10-alpine
+FROM node:current-alpine
 
 LABEL maintainer="nettarkivet@nb.no"
 
 COPY package.json yarn.lock /usr/src/app/
 WORKDIR /usr/src/app
 
-RUN apk add --no-cache git \
-&& yarn install --production \
+RUN yarn install --production \
 && yarn cache clean
 
 COPY . .
